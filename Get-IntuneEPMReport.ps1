@@ -4,7 +4,7 @@
 
 .DESCRIPTION
     Queries Microsoft Graph (beta) deviceManagement/privilegeManagementElevations, follows paging,
-    and writes two CSV files:
+    and writes two CSV files: test
       1. EPM_Elevations_Detail_<timestamp>.csv   - one row per elevation event
       2. EPM_Elevations_Summary_<timestamp>.csv  - one row per user + application (with counts)
 
